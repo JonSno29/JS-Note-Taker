@@ -47,8 +47,10 @@ const createNote = (body, notesArr) => {
     )
     return newNote
 }
-
-
+app.delete('/api/notes/:id', (req, res) => {
+    deleteNote(req.params.id, dataBase);
+    res.json(true);
+})
 
 
 app.listen(PORT, () => {
