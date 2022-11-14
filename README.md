@@ -6,6 +6,8 @@ https://jts-js-note-taker.herokuapp.com/
 
 GitHub Repository:
 
+https://github.com/JonSno29/JS-Note-Taker.git
+
 ## Description:
   
   On this application, the user is able to write, save and delete notes. 
@@ -30,7 +32,7 @@ GitHub Repository:
   
   then in the browser type in "http://localhost:3000", type  "npm start" so I can test and use the note taker.
  
-## Contributions
+## Contributions:
  
  Jon Snover A.K.A. JonSno29
   
