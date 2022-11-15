@@ -36,7 +36,7 @@ https://github.com/JonSno29/JS-Note-Taker.git
   
   test and use the note taker.
 
-  public/assets/Screen Shot for note taker.png
+ ![](public/assets/Screen%20Shot%20for%20note%20taker.png)
  
 ## Contributions:
  
