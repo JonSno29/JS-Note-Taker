@@ -12,7 +12,9 @@ https://github.com/JonSno29/JS-Note-Taker.git
   
   On this application, the user is able to write, save and delete notes. 
   
-  The note taker assists the userin orginizing tasks and thoughts that need to be stored or completed.
+  The note taker assists the userin orginizing tasks and thoughts that need to be 
+  
+  stored or completed.
 
 ## Table of Contents:
 
@@ -30,7 +32,11 @@ https://github.com/JonSno29/JS-Note-Taker.git
   
   In the root directory, run "npm install" to install all dependencies, 
   
-  then in the browser type in "http://localhost:3000", type  "npm start" so I can test and use the note taker.
+  then in the browser type in "http://localhost:3000", type  "npm start" so I can 
+  
+  test and use the note taker.
+
+  public/assets/Screen Shot for note taker.png
  
 ## Contributions:
  
