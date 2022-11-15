@@ -9,12 +9,12 @@ const app = express();
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));  
 app.use(express.static('public'));  
-
+//connects to index file
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/index.html'))
 })
 
-
+//Connects to notes file
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 })
@@ -27,7 +27,7 @@ app.post('/api/notes', (req, res) => {
     const newNote = createNote(req.body, dataBase)
     res.json(newNote)
 })
-
+// Creates notes
 const createNote = (body, notesArr) => {
     const newNote = body;
     if (!Array.isArray(notesArr)) {
@@ -47,6 +47,7 @@ const createNote = (body, notesArr) => {
     )
     return newNote
 }
+//Deletes old note
 app.delete('/api/notes/:id', (req, res) => {
     deleteNote(req.params.id, dataBase);
     res.json(true);
@@ -65,7 +66,7 @@ const deleteNote = (id, notesArr) => {
     }
 };
 
-
+//local:3000
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
 });
